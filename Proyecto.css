@@ -1,0 +1,61 @@
+body {
+    background-color: hsla(293, 0%, 100%, 1);
+    background-image: radial-gradient(circle at 22.163604844040357% 2.1798240603221752%, hsla(20, 92%, 95%, 1) 23.568744287672658%, transparent 56.501027786565594%), radial-gradient(circle at 45.311233334580514% 71.93419399063178%, hsla(30, 97%, 71%, 1) 23.568744287672658%, transparent 67.89492585521886%), radial-gradient(circle at 3.08676619149175% 93.13835256483492%, hsla(20, 92%, 95%, 1) 23.568744287672658%, transparent 56.62150308231237%), radial-gradient(circle at 63.11096144972001% 6.859362504284245%, hsla(7, 91%, 85%, 1) 16.437001956471914%, transparent 34.20183491496951%), radial-gradient(circle at 93.36251730459834% 0.863703872957843%, hsla(7, 91%, 85%, 1) 16.437001956471914%, transparent 34.20183491496951%), radial-gradient(circle at 92.32486499295344% 46.34296812521421%, hsla(21, 96%, 65%, 1) 23.568744287672658%, transparent 67.89492585521886%), radial-gradient(circle at 71.17272171711502% 80.56209299668686%, hsla(21, 96%, 65%, 1) 23.568744287672658%, transparent 67.89492585521886%), radial-gradient(circle at 47.86595585929474% 53.36371527777778%, hsla(24, 96%, 80%, 1) 23.568744287672658%, transparent 67.89492585521886%);
+    background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal;
+}
+.Botón {
+    background-color: darksalmon;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 50px;
+    font-weight: 900;
+}
+p {
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+ul {
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+a:hover {
+    color: aliceblue;
+    padding: 20px 32px;
+    background-color: hsla(0, 0%, 7%, 1);
+    background-image: radial-gradient(circle at 70.70579227800434% 6.111111111111111%, hsla(20, 100%, 50%, 1) 5.874820285373268%, transparent 21.734169854058184%), radial-gradient(circle at 51.61486898232785% 10%, hsla(355, 100%, 41%, 0.69) 4.027777777777778%, transparent 27.217765384250264%), radial-gradient(circle at 55.75712120501883% 42.916666666666664%, hsla(355, 100%, 41%, 0.74) 5.240241156684063%, transparent 70.15027364095057%);
+    background-blend-mode: normal, normal, normal;
+}
+
+#Título {
+    text-align: center;
+    color: crimson;
+    font-weight: 900;
+}
+
+#Descripción {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.palabra {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+a {
+  gap: 80px;
+  margin: 10px;
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: hsla(30, 24%, 96%, 1);
+    background-image: radial-gradient(circle at 0% 48%, hsla(64, 81%, 77%, 0.4) 0%, transparent 82%), radial-gradient(circle at 100% 54%, hsla(5, 77%, 74%, 0.35) 3%, transparent 73%), radial-gradient(circle at 40% 0%, hsla(315, 77%, 74%, 0) 3.1210986267166043%, transparent 40%), radial-gradient(circle at 60% 0%, hsla(256, 77%, 74%, 0) 3.1210986267166043%, transparent 40%), radial-gradient(circle at 80% 0%, hsla(191, 77%, 74%, 0) 3.1210986267166043%, transparent 40%), radial-gradient(circle at 100% 0%, hsla(152, 77%, 74%, 0) 3%, transparent 40%), radial-gradient(circle at 49% 70%, hsla(23, 23%, 91%, 0) 30.719457311450917%, transparent 72.48279374983174%);
+    background-blend-mode: normal, normal, normal, normal, normal, normal, normal;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px; 
+    border: 5px solid orange;
+    border-radius: 20px;
+    padding: 15px;;
+    color: brown;
+    font-weight: 900;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;   
+}
+
+.boton{
+    background-color: chocolate;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    margin: auto;
+    padding: 20px 15px;
+    border-radius: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    padding: 25px 30px;
+    background-color: hsla(26, 100%, 4%, 1);
+    background-image: radial-gradient(circle at 9% 15%, hsla(24, 100%, 10%, 1) 2.4015369836695486%, transparent 53.48241393046237%), radial-gradient(circle at 100% 100%, hsla(26, 100%, 4%, 1) 0%, transparent 76.36516261032061%), radial-gradient(circle at 8% 98%, hsla(26, 100%, 4%, 1) 0%, transparent 77%), radial-gradient(circle at 98% 3%, hsla(25, 100%, 49%, 1) 39.8090373542192%, transparent 150%);
+    background-blend-mode: normal, normal, normal, normal;
+
+}
