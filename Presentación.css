@@ -43,6 +43,7 @@ p {
     border-radius: 40px;
     font-weight: 700;
     text-align: center;
+    transition: 0.5s;
 }
 
 a:hover {
@@ -51,5 +52,6 @@ a:hover {
     background-color: hsla(26, 100%, 4%, 1);
     background-image: radial-gradient(circle at 9% 15%, hsla(24, 100%, 10%, 1) 2.4015369836695486%, transparent 53.48241393046237%), radial-gradient(circle at 100% 100%, hsla(26, 100%, 4%, 1) 0%, transparent 76.36516261032061%), radial-gradient(circle at 8% 98%, hsla(26, 100%, 4%, 1) 0%, transparent 77%), radial-gradient(circle at 98% 3%, hsla(25, 100%, 49%, 1) 39.8090373542192%, transparent 150%);
     background-blend-mode: normal, normal, normal, normal;
-
+    transform: scale(1.03);
+    box-shadow: 0 0 60px orangered;
 }
