@@ -15,6 +15,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     gap: 50px;
     font-weight: 900;
+    transition: 0.5s;
 }
 p {
     color: black;
@@ -33,6 +34,8 @@ a:hover {
     background-color: hsla(0, 0%, 7%, 1);
     background-image: radial-gradient(circle at 70.70579227800434% 6.111111111111111%, hsla(20, 100%, 50%, 1) 5.874820285373268%, transparent 21.734169854058184%), radial-gradient(circle at 51.61486898232785% 10%, hsla(355, 100%, 41%, 0.69) 4.027777777777778%, transparent 27.217765384250264%), radial-gradient(circle at 55.75712120501883% 42.916666666666664%, hsla(355, 100%, 41%, 0.74) 5.240241156684063%, transparent 70.15027364095057%);
     background-blend-mode: normal, normal, normal;
+    transform: scale(1.03);
+    box-shadow: 0 0 60px brown;
 }
 
 #Título {
