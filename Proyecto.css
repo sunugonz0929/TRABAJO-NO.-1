@@ -42,6 +42,7 @@ a:hover {
     text-align: center;
     color: crimson;
     font-weight: 900;
+    font-size: 50px;
 }
 
 #Descripción {
@@ -60,5 +61,5 @@ a:hover {
 
 a {
   gap: 80px;
-  margin: 10px;
+  margin: 20px;
 }
