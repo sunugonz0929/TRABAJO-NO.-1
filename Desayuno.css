@@ -66,3 +66,61 @@ img:hover {
     transform:scale(1.03);
     box-shadow: 0 0 60px orangered;
 }
+
+
+@media screen and (max-width: 768px){
+
+    body{
+        margin: 15px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    p,
+    .estilo{
+        font-size: 16px;
+    }
+
+    .imagen1,
+    .creacion{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    img{
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .texto,
+    .texto1{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    h1{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p,
+    .estilo{
+        font-size: 15px;
+    }
+
+    body{
+        margin: 10px;
+    }
+}
