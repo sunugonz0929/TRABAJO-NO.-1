@@ -55,3 +55,14 @@ a:hover {
     transform: scale(1.03);
     box-shadow: 0 0 60px orangered;
 }
+
+@media screen and (max-width: 768px){
+
+    body{
+        margin: 15px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+ }
