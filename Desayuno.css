@@ -25,7 +25,6 @@ p {
 }
 
 img {
-  width: 400px;
   height: 250px;
   padding: 20px;
   background-color: aliceblue;
@@ -43,10 +42,12 @@ img {
   gap: 40px;
 }
 
-img {
-  width: 400px;
-  height: 250px;
-  border-radius: 50px;
+img{
+    width: 100%;
+    max-width: 400px;
+    height: 250PX;
+    padding: 20px;
+    border-radius: 50px;
 }
 
 h2 {
@@ -71,7 +72,7 @@ img:hover {
 @media screen and (max-width: 768px){
 
     body{
-        margin: 15px;
+        margin: 10px;
     }
 
     h1{
@@ -79,11 +80,10 @@ img:hover {
     }
 
     h2{
-        font-size: 24px;
+        font-size: 22px;
     }
 
-    p,
-    .estilo{
+    p{
         font-size: 16px;
     }
 
@@ -91,37 +91,21 @@ img:hover {
     .creacion{
         flex-direction: column;
         text-align: center;
-        gap: 20px;
     }
 
     img{
+        width: 100%;
         max-width: 100%;
-        padding: 10px;
+        height: 250PX;
     }
 
     .texto,
     .texto1{
         max-width: 100%;
     }
-}
 
-@media screen and (max-width: 480px){
-
-    h1{
-        font-size: 22px;
-    }
-
-    h2{
-        font-size: 20px;
-    }
-
-    p,
     .estilo{
-        font-size: 15px;
-    }
-
-    body{
-        margin: 10px;
+        text-align: center;
     }
 }
 
