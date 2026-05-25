@@ -63,7 +63,7 @@ a:hover {
 
 a {
   gap: 80px;
-  margin: 20px;
+  margin: 10px;
 }
 
 @media screen and (max-width: 768px){
