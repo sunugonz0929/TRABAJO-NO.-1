@@ -54,3 +54,18 @@ a:hover {
     transform: scale(1.03);
     box-shadow: 0 0 60px orange;
 }
+
+@media screen and (max-width: 768px){
+
+    body{
+        margin: 10px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .cambio {
+        font-size: 45px;
+    }
+ }
